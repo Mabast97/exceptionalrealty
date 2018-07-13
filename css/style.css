@@ -11,6 +11,11 @@ h3 {margin: 0 0 10px;}
     font-size: 2em;
 }
 
+#horizontal
+{
+    height: 18px; background-color: azure;
+}
+
 .shadow h4
 {
     font-size: 1.7em;
