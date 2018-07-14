@@ -160,6 +160,18 @@ img, video, audio, iframe, table, form
  width: 100%;   max-width: 100%; 
 }
 
+table th, table tr td
+{
+    border: 2px solid black;
+    border-collapse: collapse;
+    height: 100%;
+    text-align: center;
+}
+table th
+{
+   font-size: 1.4em;
+}
+
 #ff
 {
     border: 3px solid black;
@@ -228,6 +240,7 @@ header
 
 section
 {
+    width: 100%;
     padding: 20px;
     margin-bottom: 20px;
     background: white;
@@ -236,15 +249,39 @@ section
 #social
 {
     position: fixed; top: 200px;
-    right: 20px;  width: 40px;
-    z-index: 1;
+    right: 5px; z-index: 1;
+    
 }
 
 #social a
 {
     display: block;
-    width: 40px; height: 40px;
-    background: yellow;
+    margin-top: 2px;
+    text-align-last: center;
+    border-radius: 15px;
+    padding-top: 8px; 
+    font-size: 45px;
+}
+
+#social a:hover
+{
+    background-color: darkgrey;
+}
+
+#social i.fa-twitter
+{
+    color: blue;
+}
+
+#social i.fa-facebook
+{
+    color: dodgerblue;
+}
+
+
+#social i.fa-google-plus-g
+{
+    color: red;
 }
 
 /* ---- HEADER ---- */
@@ -287,6 +324,9 @@ margin: 0 0 30px;
     background: #333;
     color: white;
 }
+
+#navbar nav a.menu-icon { display: none; }
+
 
 #navbar nav a:hover
 {
@@ -362,6 +402,8 @@ background: linear-gradient(
     padding: 60px 0 0 ;
 }
 
+.fa-earlybirds { visibility: hidden;}
+
 /* ---- FOOTER ---- */
 footer
 {
@@ -419,3 +461,8 @@ form input[type="submit"]
     font-size: 1.6em;
     height: 40px;
 }
+
+
+
+
+

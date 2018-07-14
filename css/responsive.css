@@ -1,0 +1,102 @@
+
+
+@media only screen and (max-width:1270px)
+{
+    #social
+    {
+        position: absolute;
+        top:20%;
+        width: auto;
+        right: 2%;
+    }
+    
+    #social a
+    {
+        display: inline; margin-right: 10px;
+    }
+    
+    .wrapper
+    {
+        width: 90%;
+    }
+}
+
+
+@media only screen and (max-width:930px)
+{
+    #navbar
+    {
+        font-size: 0.85em;
+    }
+}
+
+
+
+@media only screen and (max-width: 780px)
+{
+    #navbar
+    {
+        font-size: 0.75em;
+    }
+    
+    #social { top: 17% }
+    
+    #logo h1 { font-size: 1.6em; }
+    
+    p { font-size: 0.9em; }
+}
+
+
+
+@media  only screen and (max-width: 680px)
+{
+    #navbar nav a { display: none; }
+    
+    #navbar nav a.menu-icon
+    {
+        display: block;
+        float: right;
+        font-size: 2.5em;
+        padding: 10px 12px;
+        width: auto;
+    }
+    
+    #logo h1 {display: none;}
+    
+    #logo .fa-earlybirds
+    {
+        visibility: visible;
+        font-size: 4em;
+        padding: 10px;
+        color: darkblue;
+    }
+    
+    .col-3, .col-2, .col-1
+    {
+        width: 90%; margin-left: 10px;
+        padding: 0;  padding: 10px;
+    }
+    
+    #flex
+    {
+        display: block;
+    }
+    
+    .wrapper
+    {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .white-wood
+    {
+        height: 100%; width: 100%;
+    }
+    
+    #details div
+    {
+        height: auto; padding-top: 3px;
+    }
+    
+}
+
