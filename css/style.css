@@ -182,6 +182,7 @@ table th
 #details
 {
     border-top: 2px solid white;
+    width: 97%;
 }
 
 #details div
@@ -403,6 +404,7 @@ background: linear-gradient(
 }
 
 .fa-earlybirds { visibility: hidden;}
+
 
 /* ---- FOOTER ---- */
 footer
