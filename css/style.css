@@ -1,5 +1,15 @@
 
 /* ---- GLOBAL ---- */
+* { box-sizing: border-box;}
+
+#center
+{ 
+    text-align-last: center;
+    font-size: 2em;
+    background-color: #333333;
+    color: whitesmoke;
+    padding: 10px;
+}
 
 h3 {margin: 0 0 10px;}
 
@@ -182,7 +192,7 @@ table th
 #details
 {
     border-top: 2px solid white;
-    width: 97%;
+    width: 100%;
 }
 
 #details div
@@ -418,8 +428,7 @@ footer
 
 .bottom
 {
-    position: absolute; width: 100%;
-    bottom: 0;
+    
 }
 
 /*---- FORM ----*/
